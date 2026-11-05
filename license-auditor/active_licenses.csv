@@ -1,0 +1,6 @@
+license_id,company_name,contact_email,seats_purchased,expiry_date
+LIC-001,Acme Corporation,licensing@acme.com,10,2027-03-31
+LIC-002,Globex Industries,it-admin@globex.com,5,2027-01-15
+LIC-003,Initech LLC,licenses@initech.com,3,2026-09-30
+LIC-004,Umbrella Biotech,ops@umbrella-bio.com,8,2027-06-30
+LIC-005,Stark Dynamics,admin@starkdyn.com,2,2027-12-31

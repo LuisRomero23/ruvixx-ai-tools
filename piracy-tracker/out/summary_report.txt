@@ -1,0 +1,31 @@
+LEAKED LICENSE KEY: PIRACY SUMMARY
+Client: Chaos | Source: leaked_logs.csv
+
+WHAT WE FOUND
+21 unique devices are using the leaked key.
+The log had 31 entries. 4 were unusable (3 had no Device ID, 1 had an
+invalid IP address) and 2 were exact duplicates. 25 entries were analyzed.
+
+TOP OFFENDING COUNTRIES (by unique devices, not IP addresses)
+ 1. India          - 6 devices
+ 2. United States  - 4 devices
+ 3. Brazil         - 3 devices
+ 4. Germany        - 3 devices
+ 5. Russia         - 2 devices
+ 6. Vietnam        - 2 devices
+ 7. Canada         - 1 device
+
+Not ranked: 1 device had no country listed (Unknown).
+
+KEY TAKEAWAYS
+- India is the largest source, with 6 of 21 devices (28.6%).
+- The top 3 countries (India, United States, Brazil) account for 13 of
+  21 devices (61.9%).
+- 1 device (DEV-3001) appeared in more than one country (Germany and
+  Canada). This may indicate VPN use or the key being shared.
+
+NOTES
+- Counts are based on unique Device IDs. Several devices shared the same
+  IP address, and some devices used several IPs, so IP counts would be
+  misleading.
+- Rejected entries are listed in rejected_rows.csv for review.

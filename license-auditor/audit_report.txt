@@ -1,0 +1,38 @@
+LICENSE COMPLIANCE AUDIT
+Report date: 2026-11-04
+Files audited: messy_logs.csv and active_licenses.csv
+Rows read: 10; rows dropped as duplicates: 1.
+
+EXECUTIVE SUMMARY
+Overall status: NEEDS ATTENTION.
+We found 7 issues: 3 high, 2 medium, and 2 low severity.
+The audit kept 9 unique activity rows and checked them against 5 licenses.
+Review the findings and suggested next actions below.
+
+FINDINGS BY COMPANY
+Acme Corporation: OK.
+Globex Industries: NEEDS ATTENTION.
+- Company name typo(s) Globex Industires were matched to Globex Industries. [COMPANY_TYPO]
+- Line 6 has no valid user email, so we cannot tell who logged in. [MISSING_EMAIL]
+Initech LLC: NEEDS ATTENTION.
+- Initech LLC's license expired on 2026-09-30; we saw 1 post-expiry event (lines 7). [EXPIRED_LICENSE]
+Umbrella Biotech: OK.
+Stark Dynamics: NEEDS ATTENTION.
+- Stark Dynamics has 2 seats but 3 different people used the product (frank@starkdyn.com, gina@starkdyn.com, hank@starkdyn.com). That is 1 over the limit. [SEAT_OVERAGE]
+
+UNLICENSED ACTIVITY
+Wayne Enterprises has 1 unlicensed activity row (lines 11). [UNLICENSED]
+
+DATA QUALITY NOTES
+Removed 1 duplicate row(s) at lines 4.
+Corrected company name: Globex Industires -> Globex Industries.
+Line 11 has an unparseable timestamp. [BAD_TIMESTAMP]
+
+SUGGESTED NEXT ACTIONS
+- Keep duplicate rows out of future usage exports (lines 4).
+- Contact licenses@initech.com about renewal.
+- Review the 3 users on Stark Dynamics and contact admin@starkdyn.com about additional seats.
+- Verify the licensing status for Wayne Enterprises activity.
+- Follow up on line 6 to identify the user.
+- Correct the timestamp on line 11 before relying on date checks.
+- Confirm the company name Globex Industires should be recorded as Globex Industries.

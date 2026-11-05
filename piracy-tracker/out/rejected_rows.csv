@@ -1,0 +1,5 @@
+row_number,ip_address,device_id,country,reason
+7,203.0.113.14,,Brazil,missing_device_id
+8,999.1.1.1,DEV-8001,Brazil,invalid_ip
+14,198.51.100.24,N/A,United States,missing_device_id
+18,192.0.2.33,null,Germany,missing_device_id

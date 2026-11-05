@@ -1,0 +1,11 @@
+log_id,timestamp,company_name,user_email,product,action
+L001,2026-11-01 09:15:00,Acme Corporation,alice@acme.com,Analytics Suite,login
+L002,11/02/2026 14:30,ACME Corporation ,bob@acme.com,Analytics Suite,login
+L001,2026-11-01 09:15:00,Acme Corporation,alice@acme.com,Analytics Suite,login
+L004,2026-11-02T10:05:00Z,Globex Industires,carol@globex.com,Analytics Suite,login
+L005,Nov 3 2026,Globex Industries,,Analytics Suite,login
+L006,2026-11-03 16:45:00,Initech LLC,dave@initech.com,Analytics Suite,login
+L007,2026-11-04 08:00:00,Stark Dynamics,frank@starkdyn.com,Analytics Suite,login
+L008,2026-11-04 08:20:00,Stark Dynamics,gina@starkdyn.com,Analytics Suite,login
+L009,2026-11-04 09:10:00,Stark Dynamics,  HANK@StarkDyn.com ,Analytics Suite,login
+L010,2026-13-45 99:99,Wayne Enterprises,bruce@wayne-ent.com,Analytics Suite,login
